@@ -15,7 +15,7 @@ import os
 from urllib.parse import urlparse
 
 PORT = int(os.environ.get("PORT", 8080))
-DATA_FILE = os.path.join(os.path.dirname(__file__), "badapple_16x16.txt")
+DATA_FILE = os.path.join(os.path.dirname(__file__), "badapple_16x16-1.txt")
 
 class State:
     def __init__(self):
